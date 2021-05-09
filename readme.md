@@ -1,4 +1,4 @@
-# REV seminar thesis
+# REV seminar paper
 
 **Degree: IT Security Master, MCS**
 
