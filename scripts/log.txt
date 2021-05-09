@@ -1,0 +1,72 @@
+== pdf/veroeffentlichung_erh005_gutachten_data_science_a0854.pdf ==
+-- metadata --
+{'Author': b'Rischer Sandra',
+ 'CreationDate': b"D:20191001155155+02'00'",
+ 'Creator': b'Microsoft\xae Word 2016',
+ 'ModDate': b"D:20191001155510+02'00'",
+ 'Producer': b'Microsoft\xae Word 2016'}
+-- wordlist --
+matches found: 
+set()
+== pdf/stellungnahme_fhtw.pdf ==
+-- metadata --
+{'Author': b'Gabriele Lechner',
+ 'CreationDate': b"D:20170621140623+02'00'",
+ 'Creator': b'Microsoft\xae Word 2010',
+ 'ModDate': b"D:20170621141748+02'00'",
+ 'Producer': b'Microsoft\xae Word 2010',
+ 'Title': b'H\xf6chst\xe4dtplatz 5'}
+-- wordlist --
+matches found: 
+{'angelika.ott@technikum-wien.at'}
+== pdf/teilnahmebedingungen_ostern.pdf ==
+-- metadata --
+{'Author': b'Jessica Underrain',
+ 'CreationDate': b"D:20200402100937+02'00'",
+ 'Creator': b'\xfe\xff\x00M\x00i\x00c\x00r\x00o\x00s\x00o\x00f\x00t'
+            b'\x00\xae\x00 \x00W\x00o\x00r\x00d\x00 \x002\x000\x001\x006',
+ 'ModDate': b"D:20200402100937+02'00'",
+ 'Producer': b'\xfe\xff\x00M\x00i\x00c\x00r\x00o\x00s\x00o\x00f\x00t'
+             b'\x00\xae\x00 \x00W\x00o\x00r\x00d\x00 \x002\x000\x001\x006'}
+-- wordlist --
+matches found: 
+{'web@technikum-wien.at', 'datenschutz@technikum-wien.at'}
+== pdf/veroeffentlichung_stellungnahme_data_science.pdf ==
+-- metadata --
+{'Author': b'',
+ 'CreationDate': b"D:20191001145145+01'00'",
+ 'Creator': b'KMBT_C654',
+ 'Keywords': b'',
+ 'ModDate': b"D:20191001160353+02'00'",
+ 'Producer': b'KONICA MINOLTA bizhub C654',
+ 'Subject': b'',
+ 'Title': b'KMBT_C654-20191001145145'}
+-- wordlist --
+matches found: 
+set()
+== pdf/005_stellungnahme_gutachten_aea0334.pdf ==
+-- metadata --
+{'Author': b'sohm',
+ 'CreationDate': b"D:20160224154711+01'00'",
+ 'Creator': b'PScript5.dll Version 5.2.2',
+ 'ModDate': b"D:20160224155514+01'00'",
+ 'Producer': b'Acrobat Distiller 9.5.5 (Windows)',
+ 'Title': b'Microsoft Word - 005_Stellungnahme_Gutachten_\xc4A0334'}
+-- wordlist --
+matches found: 
+{'angelika.ott@technikum-wien.at'}
+== pdf/0.pdf ==
+-- metadata --
+{'Author': b'Peter Balog\x05\x05\x05\x05\x05',
+ 'CreationDate': b"D:20140306120616+01'00'\t\t\t\t\t\t\t\t\t",
+ 'Creator': b'Microsoft\xae Word 2010\x0c\x0c\x0c\x0c\x0c\x0c\x0c\x0c'
+            b'\x0c\x0c\x0c\x0c',
+ 'Keywords': b'\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10',
+ 'ModDate': b"D:20140306120824+01'00'\t\t\t\t\t\t\t\t\t",
+ 'Producer': b'Microsoft\xae Word 2010\x0c\x0c\x0c\x0c\x0c\x0c\x0c\x0c'
+             b'\x0c\x0c\x0c\x0c',
+ 'Title': b'FH Technikum Wien - Masterstudiengang Embedded Systems\n\n\n\n\n\n'
+          b'\n\n\n\n'}
+-- wordlist --
+matches found: 
+{'info.mes@technikum-wien.at'}

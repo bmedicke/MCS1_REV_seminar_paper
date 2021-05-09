@@ -1,0 +1,148 @@
+\chapter{Start: example.tex}
+\chapter{Erste Überschrift der Ebene 1 (chapter)}
+\blinddocument
+
+\blindmathpaper
+
+\section{Erste Überschrift Tiefe 2 (section)}
+\blindtext
+
+\subsection{Erste Überschrift Tiefe 3 (subsection)}
+\blindtext
+
+\subsubsection{Erste Überschrift Tiefe 4 (subsubsection)}
+\blindtext
+
+\chapter{Zweite Überschrift der Tiefe 1 (chapter)}
+\blindtext
+
+\section{Zweite Überschrift Tiefe 2 (section)}
+\blindtext
+
+\section{Zweite Überschrift Tiefe 2 (section)}
+\blindtext
+
+\subsection{Zweite Überschrift Tiefe 3 (subsection)}
+\blindtext
+
+\subsection{Dritte Überschrift Tiefe 3 (subsection)}
+\blindtext
+
+\subsubsection{Zweite Überschrift Tiefe 4 (subsubsection)}
+\blindtext
+
+\noindent Querverweise werden in \LaTeX{} automatisch erzeugt und verwaltet, damit sie leicht aktualisiert werden können. Hier wird zum Beispiel auf Abbildung \ref{Abb1} verwiesen.
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.5\linewidth]{FH/PICs/buchruecken}
+\caption{Beispiel für die Beschriftung eines Buchrückens.}\label{Abb1}
+\end{figure}
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.5\linewidth]{FH/PICs/buchruecken}
+\caption{2. Beispiel für die Beschriftung eines Buchrückens.}\label{Abb2}
+\end{figure}
+
+Und hier ist ein Verweis auf Tabelle \ref{tab1}. Das gezeigte Tabellenformat ist nur ein Beispiel. Tabellen können individuell gestaltet werden.
+
+\begin{table}[!htbp]
+\centering
+\caption{Semesterplan der Lehrveranstaltung \glqq Angewandte Mathematik\grqq.}\label{tab1}
+\begin{tabular}{| p{0.3\linewidth} | p{0.3\linewidth} | p{0.3\linewidth} |}\hline
+Datum & Thema & Raum\\\hline
+20.08.2008 & Graphentheorie & HS 3.13\\
+01.10.2008 & Biomathematik & HS 1.05\\\hline
+\end{tabular}
+\end{table}
+\begin{table}[!htbp]
+\centering
+\caption{2. Semesterplan der Lehrveranstaltung \glqq Angewandte Mathematik\grqq.}\label{tab2}
+\begin{tabular}{| p{0.3\linewidth} | p{0.3\linewidth} | p{0.3\linewidth} |}\hline
+Datum & Thema & Raum\\\hline
+20.08.2008 & Graphentheorie & HS 3.13\\
+01.10.2008 & Biomathematik & HS 1.05\\\hline
+\end{tabular}
+\end{table}
+
+Hier wird auf die Formel \ref{Gl1} verwiesen.
+
+\begin{align}
+x = -\frac{p}{2}\pm\sqrt{\frac{p^2}{4}-q}\label{Gl1}
+\end{align}
+\begin{align}
+x = -\frac{p}{2}\pm\sqrt{\frac{p^2}{4}-q}\label{Gl2}
+\end{align}
+
+\begin{lstlisting}[language=C++,name={1. Beispiel},label={sc:bsp:1}]
+#include <iostream>
+
+void SayHello(void)
+{
+    // Kommentar
+    cout << "Hello World!" << endl;
+}
+
+int main(int argc, char **argv)
+{
+    SayHello();
+    return 0;
+}
+\end{lstlisting}
+
+Literaturverweise sollten automatisch verwaltet werden, vor allem, wenn es viele Quellenverweise gibt. Beispiele sind  \cite{Ko05a}, \cite{Ko05b}, \cite{MiGo05}, \cite{TeGo14}, \cite{HuHa07}, \cite{HuZi10}, \cite{ZiKu07}, \cite{He07}, \cite{SIE11}, \cite{SIE14}, \cite{ISO98}, \cite{ATM11}, \cite{Hu11}, \cite{Po10}. Das verwendete Zitierformat (bzw.~das Format des Literaturverzeichnisses) ist entspechend der Vorgaben der Studiengänge zu wählen.
+Es wird dringend empfohlen, BibTeX~zu verwenden (wie in diesem Beispiel).
+
+\chapter{Dritte Überschrift der Tiefe 1 (chapter)}
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.5\linewidth]{FH/PICs/buchruecken}
+\caption{3. Beispiel für die Beschriftung eines Buchrückens.}\label{Abb3}
+\end{figure}
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.5\linewidth]{FH/PICs/buchruecken}
+\caption{4. Beispiel für die Beschriftung eines Buchrückens.}\label{Abb4}
+\end{figure}
+
+
+\begin{table}[!htbp]
+\centering
+\caption{3. Semesterplan der Lehrveranstaltung \glqq Angewandte Mathematik\grqq.}\label{tab3}
+\begin{tabular}{| p{0.3\linewidth} | p{0.3\linewidth} | p{0.3\linewidth} |}\hline
+Datum & Thema & Raum\\\hline
+20.08.2008 & Graphentheorie & HS 3.13\\
+01.10.2008 & Biomathematik & HS 1.05\\\hline
+\end{tabular}
+\end{table}
+\begin{table}[!htbp]
+\centering
+\caption{4. Semesterplan der Lehrveranstaltung \glqq Angewandte Mathematik\grqq.}\label{tab4}
+\begin{tabular}{| p{0.3\linewidth} | p{0.3\linewidth} | p{0.3\linewidth} |}\hline
+Datum & Thema & Raum\\\hline
+20.08.2008 & Graphentheorie & HS 3.13\\
+01.10.2008 & Biomathematik & HS 1.05\\\hline
+\end{tabular}
+\end{table}
+
+\begin{align}
+x = -\frac{p}{2}\pm\sqrt{\frac{p^2}{4}-q}\label{Gl3}
+\end{align}
+\begin{align}
+x = -\frac{p}{2}\pm\sqrt{\frac{p^2}{4}-q}\label{Gl4}
+\end{align}
+\begin{lstlisting}[language=C++,name={2. Beispiel},label={sc:bsp:2}]
+#include <iostream>
+
+void SayHello(void)
+{
+    // Kommentar
+    cout << "Hello World!" << endl;
+}
+
+int main(int argc, char **argv)
+{
+    SayHello();
+    return 0;
+}
+\end{lstlisting}
