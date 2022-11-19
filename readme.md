@@ -4,8 +4,6 @@
 
 **Semester: 1st**
 
-**Lecturer: Tibor Éliás & Florian Nentwich**
-
 **Subject: Reverse Engineering and Malware Analysis**
 
 **Language: English**
