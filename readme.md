@@ -10,6 +10,4 @@
 
 **Title: Reverse Engineering and Malware AnalysisAssignments**
 
-**Overleaf: https://www.overleaf.com/project/60977413b0bb6298732df1b8**
-
----
+**Overleaf, read-only: https://www.overleaf.com/read/npvmqtytmmsy**
